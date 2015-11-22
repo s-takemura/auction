@@ -8,7 +8,7 @@ class ItemsController < ApplicationController
   def new
     @item = Item.new
   end
-
+# ログインを実装しました。
   def create
     @item = Item.new(item_params)
     @item.save
